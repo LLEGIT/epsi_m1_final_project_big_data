@@ -20,7 +20,7 @@ else:
     print(f"Bucket '{bucket_name}' existe déjà.")
 
 # Répertoire local avec les fichiers à télécharger
-local_directory = "C:/Users/anais/OneDrive/Bureau/daniel/epsi_m1_final_project_big_data/data"
+local_directory = "./data"
 
 # Parcours tous les fichiers dans le répertoire local
 for filename in os.listdir(local_directory):
